@@ -41,9 +41,10 @@ a {
     flex-grow: 1;
     margin-left: 19px;
     min-height: 350px;
+    position: relative;
 }
 .cuadro1 h2 {
-    position: relative;
+    position: absolute;
     top: 1rem;
     left: 1rem;
     text-align: left;
