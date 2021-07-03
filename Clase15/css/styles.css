@@ -202,23 +202,25 @@
     margin: 0 3rem 0 0;
 }
 .footer_nav {
+    display: flex;
+    margin: 0 0 0 2rem;
+}
+.footer_nav_list {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    justify-content: space-between;
     list-style-type: none;
-    margin: 0 0 0 3rem;
+}
+.footer_line li{
+    margin: 0 0 1.75rem -2rem;
 }
 .footer_nav p {
     font-size: 0.63rem;
-    margin: 0 0 0 5rem;
 }
-
 .footer_nav a {
     color: #FFFFFF;
     font-size: 1.25rem;
-    margin: 0 0 0 -2rem;
     text-decoration: none;
 }
 .bottom_footer {
