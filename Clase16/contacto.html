@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=hea, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <section class="header-top">
+            <p>20% de descuento en todos los productos!</p>
+        </section>
+        <section class="header-bottom">
+            <img src="./img/Group.png" alt="logo">
+            <p>Nombre Tienda</p>
+        </section>
+    </header>
+    <main class="main">
+        <h1>Contacto</h1>
+        <form action="tienda.html" method="POST">
+            <section class="datos">
+                <label></label>
+                <input type="text" name="Nombre" placeholder="Nombre y Apellido" required>
+                <label></label>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <label></label>
+                <input type="textarea" name="mensaje" class="mensaje" required>
+            </section>
+            <section class="boton-cont">
+                <button type="reset" class="boton boton-reg reset">Resetear</button>
+                <button type="submit" class="boton boton-reg">Entrar</button>
+            </section>
+            <section class="no-usuario">
+                <p>¿Ya tenés una cuenta?<a href="/login.html">Ingresá</a></p>
+            </section>
+        </form>
+    </main>
+</body>
+<footer class="footer">
+    <p>Todos los derechos reservados a FRONT END 1</p>
+</footer>
+</html>
