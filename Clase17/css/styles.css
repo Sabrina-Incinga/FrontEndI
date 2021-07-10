@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    align-self: flex-start;
+    font-family: Roboto, sans-serif;
+    height: 12.90vh;
+    width: 100vw;
+}
+.header-top {
+    background-color: #1CD1B0;
+    font-size: 0.94rem;
+}
+.header-middle {
+    align-items: center;
+    background-color: #00669F;
+    color: #ffffff;
+    display: flex;
+    font-size: 1.88rem;
+}
+.header-bottom {
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-bottom ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.header-bottom a {
+    color: #ffffff;
+    font-size: 1.43vh;
+    text-decoration: none;
+    margin: 0 1vw 0 0 ;
+}
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    align-self: center;
+    align-content: center;
+    color: #FBFFFD;
+    font-family: Inter, sans-serif;
+    height: 85.30vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+.form {
+    align-self: center;
+    background-color: #00669F;
+    border-radius: 4.4vh;
+    height: 74.55vh;
+    width: 66.25vw;
+}
+
+
+.footer {
+    align-self:flex-start;
+    align-items: center;
+    background-color: #00669F;
+    color: #ffffff;
+    display: flex;
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    height: 5.47vh;
+    justify-content: center;
+    width: 100vw;
+}
