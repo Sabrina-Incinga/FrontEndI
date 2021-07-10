@@ -36,6 +36,12 @@
     text-decoration: none;
     padding: 0 1rem 0 0;
 }
+.bottom_header_nav li::before {
+    content: url(../img/pawprint\ 2.png);
+}
+.bottom_header_nav li:hover{
+    text-decoration: underline;
+}
 .logo {
     height: 1.44rem;
     width: 10.40rem;
@@ -80,6 +86,9 @@
     width: 8.81rem;
     margin: 0 7rem 0 0;
 }
+.button:hover {
+    transform: scale(1.2);
+}
 .button a {
     color:#FFFFFF;
     text-decoration: none;
@@ -118,6 +127,9 @@
     margin: 2rem 2rem 0 0;
     width: 16.56rem;
 }
+.products_list figure:hover {
+    transform: scale(1.2);
+}
 .products_list figcaption {
     font-size: 0.94rem;
     text-align: center;
@@ -154,6 +166,9 @@
 .contact_nav a {
     color: #FFFFFF;
     text-decoration: none;
+}
+.contact_nav li:hover {
+    transform: scale(1.2);
 }
 .reset, .send {
     align-items: center;
@@ -211,6 +226,9 @@
     flex-direction: column;
     font-weight: 700;
     list-style-type: none;
+}
+.footer_nav_list a:visited {
+    color: #F0A83E;
 }
 .footer_line li{
     margin: 0 0 1.75rem -2rem;
