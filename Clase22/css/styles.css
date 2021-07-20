@@ -1,0 +1,117 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Times New Roman';
+  margin: 0;
+}
+
+header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15.56rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+}
+
+header img {
+  margin: 1.31rem 0 1.31rem 0;
+}
+
+header h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #C4C4C4;
+  color: #005677;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 3.75rem;
+  letter-spacing: 1rem;
+  /*line-height: 3.75rem;
+        margin: 2.55rem 0 0 0;
+        text-align: center;*/
+  width: 100vw;
+}
+
+.datos {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 7.31rem 0 10.19rem 0;
+}
+
+.datos span {
+  font-weight: bold;
+}
+
+.datos span.personales {
+  font-style: italic;
+}
+
+.datos h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  font-size: 1.25rem;
+  height: 1.88rem;
+  letter-spacing: 0.5rem;
+  line-height: 1.88rem;
+  padding: 0 0 0 2rem;
+  width: 80vw;
+}
+
+.datos ul {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 0.94rem;
+  line-height: 1.75rem;
+  margin: 2rem 0 2rem 10rem;
+}
+
+.datos ul.none {
+  list-style: none;
+}
+
+.datos ul p {
+  margin: 0 0 0 4.7rem;
+}
+
+footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #005677;
+  color: #ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.25rem;
+  height: 2.31rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+footer img {
+  margin: 0 0 0 1rem;
+}
+/*# sourceMappingURL=styles.css.map */
