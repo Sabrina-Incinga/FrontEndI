@@ -35,7 +35,7 @@ a {
 }
 .cuadro1{
     align-self: center;
-    background-image: url('/img/delivery.jpg');
+    background-image: url('../img/delivery.jpg');
     background-repeat: no-repeat;
     border-radius: 5px;
     flex-grow: 1;
